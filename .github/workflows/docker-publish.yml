@@ -13,8 +13,8 @@ on:
       - master
 
 env:
-  REGISTRY: docker.io
-  IMAGE_NAME: zerob13/mock-openai-api
+  REGISTRY: ghcr.io
+  IMAGE_NAME: f213/mock-openai-api
 
 jobs:
   build-and-push:
